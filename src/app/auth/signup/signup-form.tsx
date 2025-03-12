@@ -84,7 +84,7 @@ export default function SignupForm() {
       </Button>
       <Button
         type="button"
-        className="w-full bg-white border border-gray-300 text-gray-700 font-semibold py-3 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center justify-center gap-2"
+        className="w-full bg-white border border-gray-300 text-blue-900 font-semibold py-3 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center justify-center gap-2"
         onClick={handleGoogleSignup}
       >
         <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -105,7 +105,9 @@ export default function SignupForm() {
             d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.38 1 3.36 3.69 1.5 7.07l4.37 3.84C6.73 8.31 9.15 6.38 12 5.38z"
           />
         </svg>
-        Sign Up with Google
+        <p className="text-blue-500">
+            Sign Up with Google
+            </p>
       </Button>
     </form>
   );

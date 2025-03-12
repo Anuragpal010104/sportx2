@@ -80,7 +80,7 @@ export default function LoginForm() {
         onClick={handleGoogleLogin}
       >
         <FcGoogle className="w-6 h-6" />
-        Continue with Google
+        <p className="text-blue-500">Continue with Google</p>
       </Button>
     </form>
   );
